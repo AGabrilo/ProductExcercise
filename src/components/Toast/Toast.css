@@ -1,0 +1,60 @@
+.notification-container {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.top-right {
+  top: 12px;
+  right: 12px;
+  transition: transform .6s ease-in-out;
+  animation: toast-in-right .7s;
+}
+
+.bottom-right {
+  bottom: 12px;
+  right: 12px;
+  transition: transform .6s ease-in-out;
+  animation: toast-in-right .7s;
+}
+
+.top-left {
+  top: 12px;
+  left: 12px;
+  transition: transform .6s ease-in;
+  animation: toast-in-left .7s;
+}
+
+.bottom-left {
+  bottom: 12px;
+  left: 12px;
+  transition: transform .6s ease-in;
+  animation: toast-in-left .7s;
+}
+
+.notification-toast{
+  height: 120px;
+  width: 200px;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+}
+
+.button-toast{
+  background-color: transparent;
+  margin-top: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 26px;
+  border: 2px solid white;
+}
+
+.notification-title{
+  text-transform: uppercase;
+    font-weight: bold;
+    width: 60px;
+    color: #fff;
+    justify-self: center;
+    background-color: aqua;
+}
